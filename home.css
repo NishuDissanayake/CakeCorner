@@ -2,3 +2,26 @@ body
 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.nav {
+    background-color: rgb(240, 218, 255);
+    overflow: hidden;
+  }
+
+  .nav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .nav a:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+    color: black;
+  }
+  
+  .nav a.active {
+    border-bottom: 3px solid rgb(123, 0, 255);
+  }
