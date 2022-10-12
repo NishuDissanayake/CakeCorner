@@ -4,13 +4,13 @@ body
 }
 
 .nav {
-    background-color: rgb(240, 218, 255);
+    background-color: #ff4c68;
     overflow: hidden;
   }
 
   .nav a {
     float: left;
-    color: #000000;
+    color: whitesmoke;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -23,7 +23,7 @@ body
   }
   
   .nav a.active {
-    border-bottom: 3px solid rgb(123, 0, 255);
+    border-bottom: 3px solid whitesmoke;
   }
 
 .row1 
@@ -39,4 +39,32 @@ body
 .card-title
 {
   font-weight: bolder;
+}
+
+/* changed */
+.banner{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn{
+  color: #ff4c68;
+}
+
+.icons{
+  width: 100%;
+  background-color: #ff4c68;
+  height: 100px;
+  text-align: center;
+  padding-top: 30px;
+}
+.icons i{
+  color: whitesmoke;
+  padding: 0 25px;
+}
+.foot{
+  text-align: center;
+  color: #ff4c68;
+  padding-top:10px ;
+ 
 }
