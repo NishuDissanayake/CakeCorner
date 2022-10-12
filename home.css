@@ -25,3 +25,18 @@ body
   .nav a.active {
     border-bottom: 3px solid rgb(123, 0, 255);
   }
+
+.row1 
+{
+  padding: 50px;
+}
+
+.card-img-top
+{
+  height: 250px;
+}
+
+.card-title
+{
+  font-weight: bolder;
+}
