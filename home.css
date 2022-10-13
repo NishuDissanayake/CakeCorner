@@ -1,12 +1,14 @@
-body
-{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
     background-color: #ff4c68;
     overflow: hidden;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
   .nav a {
     float: left;
@@ -15,7 +17,7 @@ body
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
 
   .nav a:hover {
     border-bottom: 3px solid rgb(0, 0, 0);
@@ -26,19 +28,17 @@ body
     border-bottom: 3px solid whitesmoke;
   }
 
-.row1 
-{
-  padding: 50px;
+
+.row1 {
+    padding: 50px;
 }
 
-.card-img-top
-{
-  height: 250px;
+.card-img-top {
+    height: 250px;
 }
 
-.card-title
-{
-  font-weight: bolder;
+.card-title {
+    font-weight: bolder;
 }
 
 /* changed */
