@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  color: white;
+  width: 100%;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: white;
+  float: left;
+}
+.bg{
+
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+.top-left1 {
+  position: absolute;
+  top: 20%;
+  left: 30px;
+  color: white;
+  float: left;
+  width: 50%;
+}
+.h1{
+  color: white;
+  float: left;
+}
+#btn{
+  background-color: rgb(121, 0, 0);
+  color: white;
+  width: 20%;
+  height: 50px;
+  font-size:larger;
+  margin-top: 70%;
+  margin-left: 0%;
+  float: left;
+  left: 1px;
+}
+#welcome{
+  float: left;
+  color: rgb(248, 155, 155);
+}
+#welcomemsg{
+  margin-top: 20%;
+  float: left;
+  text-align: left;
+  width: 70%;
+  margin-left: 0;
+  color: white;
+}
