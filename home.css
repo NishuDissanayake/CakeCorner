@@ -1,42 +1,36 @@
-body
-{
+body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
-    background-color: rgb(240, 218, 255);
+    background-color: #dc3545;
     overflow: hidden;
-  }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-  .nav a {
-    float: left;
-    color: #000000;
+.nav a {
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-
-  .nav a:hover {
-    border-bottom: 3px solid rgb(0, 0, 0);
-    color: black;
-  }
-  
-  .nav a.active {
-    border-bottom: 3px solid rgb(123, 0, 255);
-  }
-
-.row1 
-{
-  padding: 50px;
 }
 
-.card-img-top
-{
-  height: 250px;
+.nav a:hover {
+    border-bottom: 3px solid #fff;
+    color: white;
 }
 
-.card-title
-{
-  font-weight: bolder;
+.row1 {
+    padding: 50px;
+}
+
+.card-img-top {
+    height: 250px;
+}
+
+.card-title {
+    font-weight: bolder;
 }
