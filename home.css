@@ -1,33 +1,40 @@
-body {
+:root {
+    --primary-color: #ff4c68;
+    --seconday-color: whitesmoke;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .nav {
-    background-color: #ff4c68;
+    background-color: var(--primary-color);
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-  .nav a {
+.nav a {
     float: left;
-    color: whitesmoke;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
-  .nav a:hover {
+.nav a:hover {
     border-bottom: 3px solid rgb(0, 0, 0);
     color: black;
-  }
-  
-  .nav a.active {
-    border-bottom: 3px solid whitesmoke;
-  }
+}
 
+.nav a.active {
+    border-bottom: 3px solid var(--secondary-color);
+}
 
 .row1 {
     padding: 50px;
@@ -42,29 +49,35 @@ body {
 }
 
 /* changed */
-.banner{
-  text-align: center;
-  margin-top: 30px;
+.banner {
+    text-align: center;
+    margin-top: 30px;
 }
 
-.btn{
-  color: #ff4c68;
+.btn {
+    color: var(--primary-color);
 }
 
-.icons{
-  width: 100%;
-  background-color: #ff4c68;
-  height: 100px;
-  text-align: center;
-  padding-top: 30px;
+.icons {
+    width: 100%;
+    background-color: var(--primary-color);
+    height: 100px;
+    text-align: center;
+    padding-top: 30px;
 }
-.icons i{
-  color: whitesmoke;
-  padding: 0 25px;
+.icons i {
+    color: var(--secondary-color);
+    padding: 0 25px;
 }
-.foot{
-  text-align: center;
-  color: #ff4c68;
-  padding-top:10px ;
- 
+.foot {
+    text-align: center;
+    color: var(--primary-color);
+    padding-top: 10px;
+}
+
+.row {
+    width: 100%;
+}
+.col-3 {
+    width: 25%;
 }
